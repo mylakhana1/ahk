@@ -2,7 +2,9 @@
 ;Clipboard 2.0 by Mubashir Younus Lakhana
 ;NOTE: This script uses a function (DisplayText) from Miscellaneous_dynamic.ahk file.
 ;These both files have to be in the same directory for it to work properly.
-;Simply adjust the variables and add the file in "shell:startup" to run at Startup
+;This clipboard allows you to copy 10 texts simultaneously.
+;You can set predefined texts in the slots in this script and pressing CapsLock + (+) will store those predefined texts in their dedicated slots
+;****************PRESS CapsLock+i FOR MORE INFORMATION ONCE YOU RUN THE SCRIPT****************
 ;Last Updated on: February 6, 2018
 ;Enjoy!
 ;**********
@@ -10,7 +12,7 @@
 #include %A_ScriptDir%\Miscellaneous_dynamic.ahk
 #SingleInstance force
 
-CapsLock & h:: msgbox,64,Clipboard v2.2 for WS1,This Clipboard v2.0 is scripted by MYL :) `nIt allows you to copy 10 texts simultaneously.`nYou can set predefined texts in the slots in this script and pressing CapsLock + (+) will store those predefined texts in their dedicated slots`n`nFollowing are the shortcuts included in this script:`nCtrl + (0 - 9): To copy a text and store it in its dedicated slot. `n(Ctrl+1 to store in slot 1, Ctrl+2 to store in slot 2, so on...)`n`nAlt + (0 - 9): To paste a string from its slot.`n`nCapsLock + (-): It clears all slots and removes all copied texts.`n`nCapsLock + S: Shows current values of all slots as well as Windows' default clipboard.`n`n`nThank You for trying this app. You can reach me at fb.com/mylakhana for feedbacks and recommendations :)`nHave fun!`n`nWhat's new in  2.2:`nBecause of this script, you weren't able to use Ctrl + (1-9) shortcuts in browsers to switch to specified tabs. So this script has been updated and shortcuts are specified for Right Control buttons only. You can now use your left Ctrl + (1-9) for other shortcuts.`nMoreover, you can now temporarily suspend this script by pressing Ctrl+Alt+S
+CapsLock & h:: msgbox,64,Clipboard 2.0 by MYL,This Clipboard v2.0 is scripted by MYL :) `nIt allows you to copy 10 texts simultaneously.`nYou can set predefined texts in the slots in this script and pressing CapsLock + (+) will store those predefined texts in their dedicated slots`n`nFollowing are the shortcuts included in this script:`nCtrl + (0 - 9): To copy a text and store it in its dedicated slot. `n(Ctrl+1 to store in slot 1, Ctrl+2 to store in slot 2, so on...)`n`nAlt + (0 - 9): To paste a string from its slot.`n`nCapsLock + (-): It clears all slots and removes all copied texts.`n`nCapsLock + S: Shows current values of all slots as well as Windows' default clipboard.`n`n`nThank You for trying this app. You can reach me at fb.com/mylakhana for feedbacks and recommendations :)`nHave fun!`n`nWhat's new in  2.2:`nBecause of this script, you weren't able to use Ctrl + (1-9) shortcuts in browsers to switch to specified tabs. So this script has been updated and shortcuts are specified for Right Control buttons only. You can now use your left Ctrl + (1-9) for other shortcuts.`nMoreover, you can now temporarily suspend this script by pressing Ctrl+Alt+S
 
 CapsLock & s:: msgbox,,Currently Copied Strings,Slot 1: %Clip1%`n`nSlot 2: %Clip2%`n`nSlot 3: %Clip3%`n`nSlot 4: %Clip4%`n`nSlot 5: %Clip5%`n`nSlot 6: %Clip6%`n`nSlot 7: %Clip7%`n`nSlot 8: %Clip8%`n`nSlot 9: %Clip9%`n`nSlot 0: %Clip0%`n`nDefault Clipboard: %ClipBoard%
 
