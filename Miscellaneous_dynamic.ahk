@@ -42,19 +42,19 @@ FavFolder5 =
 /*
 These are the shortcuts included in this script
 
-RightCtrl+[Space]:		Toggle for [Active window always on top]
+RightCtrl+[Space]:			Toggle for [Active window always on top]
 Trackpad two-fingers-
 double-tap:				Middle Mouse Click
 Middle Mouse Click-
-in Explorer:			Works as a back button (Alt Up)
-Pause/Break:			Middle Mouse Click
+in Explorer:				Works as a back button (Alt Up)
+Pause/Break:				Middle Mouse Click
 CapsLock+z:				Middle Mouse Click
 CapsLock+m:				Searches google for meaning of selected text
 Winkey+z:				Takes screenshot and asks to categorize it
 Winkey+v:				Input box to search google
-Winkey+Delete:  		Empty Recycle Bin
+Winkey+Delete:  			Empty Recycle Bin
 Winkey+`: 				Minimize current window
-CapsLock+i: 			Shows how many ahk scripts are currently running
+CapsLock+i: 				Shows how many ahk scripts are currently running
 
 ;Requires setting variable data in this file
 CapsLock+(1-9): [Saved Texts]
@@ -63,8 +63,8 @@ CapsLock+(1-9): [Saved Texts]
 Winkey+c:				Opens 'My Computer'
 Winkey+s:				Opens 'Screenshots'
 Winkey+j: 				Opens 'Downloads'
-Capslock+a: 			Opens 'FavFolder1'
-Capslock+s: 			Opens 'FavFolder2'
+Capslock+a:				Opens 'FavFolder1'
+Capslock+s:				Opens 'FavFolder2'
 Capslock+d:				Opens 'FavFolder3'
 Capslock+f:				Opens 'FavFolder4'
 Capslock+g:				Opens 'FavFolder5'
